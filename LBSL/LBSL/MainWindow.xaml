@@ -30,6 +30,12 @@
             <Button Width="20px" Height="20px" />
         </WrapPanel>
         <TextBox x:Name="CppRed" Grid.Row="1" Background="#FF363636" BorderBrush="Black" SelectionBrush="#FF878787" IsReadOnly="True"/>
-        <RichTextBox x:Name="LBSLRed" Grid.Row="1" Background="#FF363636" BorderBrush="Black" SelectionBrush="#FF878787" AcceptsTab="True" />
+        <RichTextBox x:Name="LBSLRed" Grid.Row="1" Background="#FF363636" BorderBrush="Black" SelectionBrush="#FF878787" FontSize="18" FontWeight="Bold" >
+            <RichTextBox.Resources>
+                <Style TargetType="{x:Type Paragraph}">
+                    <Setter Property="Margin" Value="0" />
+                </Style>
+            </RichTextBox.Resources>
+        </RichTextBox>
     </Grid>
 </Window>

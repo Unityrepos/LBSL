@@ -51,7 +51,8 @@ namespace LBSL
         }
         private void Refresh(object sender, RoutedEventArgs e)
         {
-            orCode = new TextRange (LBSLRed.Document.ContentStart, LBSLRed.Document.ContentEnd).Text;
+            LBSLRed.Selection.Text = "Text\nText";
+            orCode = LBSLRed.Selection.Text;//LBSLRed.Text;//new TextRange (LBSLRed.Document.ContentStart, LBSLRed.Document.ContentEnd).Text;
             cppCode = Compiler(orCode);
             if (!string.IsNullOrEmpty(cppCode))
             {
@@ -60,6 +61,7 @@ namespace LBSL
         }
         private string Compiler (string cd)
         {
+            cd = cd.Replace("\n","e");
             return cd;
         }
     }
