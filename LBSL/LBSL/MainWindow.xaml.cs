@@ -51,8 +51,7 @@ namespace LBSL
         }
         private void Refresh(object sender, RoutedEventArgs e)
         {
-            LBSLRed.Selection.Text = "Text\nText";
-            orCode = LBSLRed.Selection.Text;//LBSLRed.Text;//new TextRange (LBSLRed.Document.ContentStart, LBSLRed.Document.ContentEnd).Text;
+            orCode = LBSLRed.Text();
             cppCode = Compiler(orCode);
             if (!string.IsNullOrEmpty(cppCode))
             {
@@ -61,8 +60,32 @@ namespace LBSL
         }
         private string Compiler (string cd)
         {
-            cd = cd.Replace("\n","e");
+            cd = cd.Replace("\n", "");
+            cd = cd.Replace("\r","");
+            cd = cd.ParseConstFunction("global");
             return cd;
+        }
+    }
+    static class StCl
+    {
+        public static string Text (this RichTextBox rtb)
+        {
+            return new TextRange(rtb.Document.ContentStart, rtb.Document.ContentEnd).Text;
+        }
+        public static void Text(this RichTextBox rtb, string value)
+        {
+            new TextRange(rtb.Document.ContentStart, rtb.Document.ContentEnd).Text = value;
+        }
+        public static string ParseConstFunction (this string text, string fName)
+        {
+            if (text.Contains (fName))
+            {
+                return text.Substring(text.IndexOf(fName));
+            }
+            else
+            {
+                return "";
+            }
         }
     }
 }
