@@ -80,7 +80,7 @@ namespace LBSL
         {
             if (text.Contains (fName))
             {
-                return text.Substring(text.IndexOf(fName));
+                return text.Replace(fName, "");
             }
             else
             {
