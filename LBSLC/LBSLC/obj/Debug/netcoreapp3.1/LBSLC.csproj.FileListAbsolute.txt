@@ -1,0 +1,13 @@
+C:\Users\IT_PK\Desktop\LBSL\LBSLC\LBSLC\bin\Debug\netcoreapp3.1\LBSLC.exe
+C:\Users\IT_PK\Desktop\LBSL\LBSLC\LBSLC\bin\Debug\netcoreapp3.1\LBSLC.deps.json
+C:\Users\IT_PK\Desktop\LBSL\LBSLC\LBSLC\bin\Debug\netcoreapp3.1\LBSLC.runtimeconfig.json
+C:\Users\IT_PK\Desktop\LBSL\LBSLC\LBSLC\bin\Debug\netcoreapp3.1\LBSLC.runtimeconfig.dev.json
+C:\Users\IT_PK\Desktop\LBSL\LBSLC\LBSLC\bin\Debug\netcoreapp3.1\LBSLC.dll
+C:\Users\IT_PK\Desktop\LBSL\LBSLC\LBSLC\bin\Debug\netcoreapp3.1\LBSLC.pdb
+C:\Users\IT_PK\Desktop\LBSL\LBSLC\LBSLC\obj\Debug\netcoreapp3.1\LBSLC.csprojAssemblyReference.cache
+C:\Users\IT_PK\Desktop\LBSL\LBSLC\LBSLC\obj\Debug\netcoreapp3.1\LBSLC.AssemblyInfoInputs.cache
+C:\Users\IT_PK\Desktop\LBSL\LBSLC\LBSLC\obj\Debug\netcoreapp3.1\LBSLC.AssemblyInfo.cs
+C:\Users\IT_PK\Desktop\LBSL\LBSLC\LBSLC\obj\Debug\netcoreapp3.1\LBSLC.csproj.CoreCompileInputs.cache
+C:\Users\IT_PK\Desktop\LBSL\LBSLC\LBSLC\obj\Debug\netcoreapp3.1\LBSLC.dll
+C:\Users\IT_PK\Desktop\LBSL\LBSLC\LBSLC\obj\Debug\netcoreapp3.1\LBSLC.pdb
+C:\Users\IT_PK\Desktop\LBSL\LBSLC\LBSLC\obj\Debug\netcoreapp3.1\LBSLC.genruntimeconfig.cache
